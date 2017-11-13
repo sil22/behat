@@ -42,7 +42,8 @@ public function __construct()
       PHPUnit_Framework_Assert::assertCount(
                   intval($count),
                   $this->basket
-              );    }
+              );
+     }
 
     /**
      * @Then the overall basket price should be £:price
